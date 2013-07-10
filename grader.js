@@ -106,7 +106,6 @@ if(require.main == module) {
         .option('-u, --url <url>', 'URL to index.html')
         .parse(process.argv);
     if (program.url) {
-	console.log('got a URL!');
 	checkHtmlURL(program.url, program.checks);
     } else {
 	var checkJson = checkHtmlFile(program.file, program.checks);
