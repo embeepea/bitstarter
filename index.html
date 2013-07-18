@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>HouseFilter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -98,6 +98,11 @@
       .footer a {
         color: #ccccff;
       }
+
+      .features li {
+        font-size: 18px;
+        line-height: 26px;
+      }
     </style>
   </head>
   <body>
@@ -132,19 +137,19 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
 	    <div class="span12">
-	      <h1>Product</h1>
+	      <h1>HouseFilter</h1>
 	    </div>
       </div>
       <div class="row-fluid subheading">
 	    <div class="span12">
 	      <!-- Special typography from Bootstrap for lead paragraph. -->
 	      <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-	      <p class="lead">One sentence description</p>
+	      <p class="lead">Organize your search for a new house</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://imgur.com/hLkBnBA.jpg">
 	    </div>
 
 	    <!-- We define a new 'actions' div to contain certain statistics, order, and share buttons. -->
@@ -156,17 +161,17 @@
 		             different in horizontal and vertical layouts, illustrating
 		             media queries -->
 		        <div class="linediv-l">
-		          <h3>1000</h3> <p>backers</p>
+		          <h3>4</h3> <p>backers</p>
 		        </div>
 	          </div>
 	          <div class="span4">
 		        <div class="linediv-c">
-		          <h3>$6000</h3> <p>of $10,000</p>
+		          <h3>$400</h3> <p>of $1000</p>
 		        </div>
 	          </div>
 	          <div class="span4">
 		        <div class="linediv-4">
-		          <h3>10</h3> <p>days left</p>
+		          <h3>23</h3> <p>days left</p>
 		        </div>
 	          </div>
 	        </div>
@@ -200,21 +205,15 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
 	    <div class="span5 offset1 asset">
-	      <img class="img-polaroid" src="http://placehold.it/480x300">
+	      <img class="img-polaroid" src="http://imgur.com/vmz4TgL.jpg">
 	    </div>
 	    <div class="span5 copy">
 	      <p>
-	        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at tortor
-	        augue. Nunc accumsan vulputate arcu, id dictum dolor interdum
-	        ac. Curabitur sit amet ante lorem. Integer vel velit ac lacus laoreet
-	        eleifend. Nulla facilisi. Phasellus gravida neque id dui bibendum, at
-	        varius odio malesuada. Praesent tincidunt ligula nec augue suscipit,
-	        eget tincidunt elit varius. Cras id purus hendrerit, pulvinar erat in,
-	        adipiscing libero. Nunc faucibus lacinia enim eu placerat. Integer
-	        commodo, velit vel porta viverra, nibh velit dapibus odio, a blandit
-	        augue mauris sit amet diam. Etiam sit amet facilisis diam. Integer dui
-	        lorem, faucibus ac molestie quis, elementum quis nisi. Aliquam
-	        sagittis bibendum arcu eget mollis.
+HouseFilter helps you make the best decision when searching for your next house.
+HouseFilter maintains a list of houses that you are interested in, automatically gathering
+information about each house from multiple real estate sites such as Zillow, Trulia, and Realtor.com.
+You can also make custom notes about each house, assign scores based on your own priorities, and
+download custom driving tours to your mobile phone or tablet.
 	      </p>
 	    </div>
       </div>
@@ -222,22 +221,18 @@
 
       <div class="row-fluid section2">
 	    <div class="span5 offset1 copy copy-right">
-	      <p>
-	        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at tortor
-	        augue. Nunc accumsan vulputate arcu, id dictum dolor interdum
-	        ac. Curabitur sit amet ante lorem. Integer vel velit ac lacus laoreet
-	        eleifend. Nulla facilisi. Phasellus gravida neque id dui bibendum, at
-	        varius odio malesuada. Praesent tincidunt ligula nec augue suscipit,
-	        eget tincidunt elit varius. Cras id purus hendrerit, pulvinar erat in,
-	        adipiscing libero. Nunc faucibus lacinia enim eu placerat. Integer
-	        commodo, velit vel porta viverra, nibh velit dapibus odio, a blandit
-	        augue mauris sit amet diam. Etiam sit amet facilisis diam. Integer dui
-	        lorem, faucibus ac molestie quis, elementum quis nisi. Aliquam
-	        sagittis bibendum arcu eget mollis.
-	      </p>
+<ul class="features">
+<li>Does not lock you into one real-estate site</li>
+<li>Simple import/export of house addresses</li>
+<li>Easy sharing of listings with your agent, spouse, family members, friends</li>
+<li>Works on your mobile device or desktop computer</li>
+<li>Custom driving directions to visit multiple houses in one outing</li>
+<li>Voice recording of notes on each house</li>
+<li>Assign custom scores to each house</li>
+</ul>
 	    </div>
 	    <div class="span5 asset">
-	      <img class="img-polaroid" src="http://placehold.it/480x300">
+	      <img class="img-polaroid" src="http://imgur.com/ql3ciRX.jpg">
 	    </div>
       </div>
 
@@ -253,12 +248,18 @@
 	          <div class="accordion-heading">
 		        <a class="accordion-toggle" data-toggle="collapse"
 		           data-parent="#accordion2" href="#collapseOne">
-		          What does FAQ stand for?
+		          What is HouseFilter?
 		        </a>
 	          </div>
 	          <div id="collapseOne" class="accordion-body collapse">
 		        <div class="accordion-inner">
-		          Frequently Asked Question.
+		          HouseFilter is a web site that acts like your
+		          personal assistant in your search for your next
+		          house purchase.  It keeps track of a list of houses
+                  you are considering, pulling in information about each house from
+                  multiple real-estate sites such as
+                  Zillow, Trulia, and Realtor.com, and helping you record your own notes
+                  about each house.
 		        </div>
 	          </div>
 	        </div>
@@ -268,15 +269,38 @@
 	          <div class="accordion-heading">
 		        <a class="accordion-toggle" data-toggle="collapse"
 		           data-parent="#accordion2" href="#collapseTwo">
-		          What's a Frequently Asked Question?
+		          How is HouseFilter different from other real estate sites?
 		        </a>
 	          </div>
 	          <div id="collapseTwo" class="accordion-body collapse">
 		        <div class="accordion-inner">
-		          A question which is commonly asked by users.
+                  HouseFilter is based on the idea of easy and convenient sharing of information.  
+                  By using HouseFilter, you are not limiting yourself to just one site.
+                  For
+                  example, using HouseFilter you can view information about a house from both Zillow and
+                  Realtor.com, and generate a list of houses you are interested in to email to your agent.
 		        </div>
 	          </div>
 	        </div>
+
+
+	        <div class="accordion-group">
+	          <div class="accordion-heading">
+		        <a class="accordion-toggle" data-toggle="collapse"
+		           data-parent="#accordion2" href="#collapseThree">
+		          How much does HouseFilter cost to use?
+		        </a>
+	          </div>
+	          <div id="collapseThree" class="accordion-body collapse">
+		        <div class="accordion-inner">
+                  You can use HouseFilter for free for 30 days.  After that it costs just $10 per month.
+If you preorder, though, you can pay a single fee of $100 for a 1-year account, plus one share of our advertising revenue for the first year.  We're not quite sure what this means yet, but if you think HouseFilter is a cool idea, chip in!
+		        </div>
+	          </div>
+	        </div>
+
+
+
 	      </div>
 	    </div>
 
